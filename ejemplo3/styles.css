@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+.logo {
+    height: 50px;
+}
+.social-icons img {
+    height: 30px;
+    margin-left: 10px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: #ddd;
+    padding: 10px 0;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+.carousel {
+    width: 900px;
+    height: 300px;
+    overflow: hidden;
+    margin: auto;
+}
+.carousel img {
+    width: 900px;
+    height: 300px;
+    display: none;
+}
+.carousel img.active {
+    display: block;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+.consulta-select {
+    margin-bottom: 20px;
+}
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* Especifica el ancho de las columnas basado en el ancho de las imágenes */
+    justify-content: center; /* Alinea la grilla al centro */
+    gap: 10px; /* Mantiene un espacio pequeño entre las imágenes */
+    padding: 20px;
+}
+
+.image-gallery img {
+    width: 100px;
+    height: 100px;
+    display: block; /* Asegura que la imagen no tenga espacio extra alrededor */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
